@@ -2,6 +2,8 @@
 
 Flower species recognition on Tensorflow.
 
+#### You can educate an another image recognition model on this source.
+
 ## ⚡ Installation
 
 Via [GIT](https://git-scm.com/)
