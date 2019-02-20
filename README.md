@@ -1,6 +1,15 @@
-# flower-species-recognition
+# 💐 flower-species-recognition
 
 Flower species recognition on Tensorflow.
+
+## ⚡ Installation
+
+Via [GIT](https://git-scm.com/)
+
+```bash
+$ git clone https://github.com/voyula/flower-species-recognition.git
+$ cd flower-species-recognition
+```
 
 ## 🛒 Requires
 
@@ -9,7 +18,7 @@ Flower species recognition on Tensorflow.
 
 ## 🍽 Usage
 
-```python
+```bash
 python3 -m scripts.label_image \
     --graph=tf_files/models/retrained_graph.pb  \
     --image=examples/102501987_3cdb8e5394_n.jpg
@@ -43,3 +52,5 @@ See [CONTRIBUTING](CONTRIBUTING.md) file for details.
 ### 📌 License
 
 Licensed under the MIT License. See [License File](LICENSE.md) for more information.
+
+Based on [tensorflow-for-poets](Lhttps://codelabs.developers.google.com/codelabs/tensorflow-for-poets)
