@@ -10,9 +10,21 @@ Flower species recognition on Tensorflow.
 ## 🍽 Usage
 
 ```python
-python -m scripts.label_image \
-    --graph=tf_files/retrained_graph.pb  \
-    --image=tf_files/flower_photos/roses/2414954629_3708a1a04d.jpg 
+python3 -m scripts.label_image \
+    --graph=tf_files/models/retrained_graph.pb  \
+    --image=examples/102501987_3cdb8e5394_n.jpg
+```
+
+Response should be like to;
+
+```
+Evaluation time (1-image): 0.854s
+
+roses (score=0.99468)
+tulips (score=0.00438)
+sunflowers (score=0.00074)
+daisy (score=0.00017)
+dandelion (score=0.00003)
 ```
 
 ### 📜 Standards
