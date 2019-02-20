@@ -37,8 +37,7 @@ sunflowers (score=0.00074)
 daisy (score=0.00017)
 dandelion (score=0.00003)
 ```
-
-## 🎯 Training of the new model (Optional)
+## 🍽 Training of the new model (Optional)
 
 ```bash
 python3 -m scripts.retrain \
