@@ -24,7 +24,7 @@ python3 -m scripts.label_image \
     --image=examples/102501987_3cdb8e5394_n.jpg
 ```
 
-Response should be like to;
+Should be response like to;
 
 ```
 Evaluation time (1-image): 0.854s
