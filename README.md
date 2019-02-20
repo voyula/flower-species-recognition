@@ -2,7 +2,7 @@
 
 Flower species recognition on Tensorflow.
 
-#### You can educate an another image recognition model on this source.
+#### You can training an another image recognition model on this source.
 
 ## ⚡ Installation
 
@@ -36,6 +36,20 @@ tulips (score=0.00438)
 sunflowers (score=0.00074)
 daisy (score=0.00017)
 dandelion (score=0.00003)
+```
+
+## 🎯 Training of the new model (Optional)
+
+```bash
+python3 -m scripts.retrain \
+  --bottleneck_dir=tf_files/bottlenecks \
+  --how_many_training_steps=500 \
+  --model_dir=tf_files/models/ \
+  --summaries_dir=tf_files/training_summaries/"${ARCHITECTURE}" \
+  --output_graph=tf_files/retrained_graph.pb \
+  --output_labels=tf_files/retrained_labels.txt \
+  --architecture="${ARCHITECTURE}" \
+  --image_dir=tf_files/flower_photos
 ```
 
 ### 📜 Standards
