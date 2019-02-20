@@ -53,4 +53,4 @@ See [CONTRIBUTING](CONTRIBUTING.md) file for details.
 
 Licensed under the MIT License. See [License File](LICENSE.md) for more information.
 
-Based on [tensorflow-for-poets](Lhttps://codelabs.developers.google.com/codelabs/tensorflow-for-poets)
+Based on [tensorflow-for-poets](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets)
